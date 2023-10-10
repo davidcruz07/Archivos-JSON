@@ -1,0 +1,75 @@
+{
+
+  "invoice" : {
+
+    "BussinessContactInformation" : {
+
+      "BussinessName" : "Name",
+      "StreetAddress" : "Street Address",
+      "CityStateZipCode" : "City, State, Zip code",
+      "NumberPhone" : "(000) 000-0000",
+      "Email" : "email",
+      "Website" : "website"
+
+    },
+
+    "GeneralDetails" : {
+
+      "BillTo" : {
+
+        "ClientName" : "Client Name",
+        "StreetAddress" : "Street Address",
+        "CityStateZipCode" : "City, State, Zip Code"
+
+      },
+
+
+      "ShipTo" : {
+
+        "ClientName" : "Client Name",
+        "StreetAddress" : "Street Address",
+        "CityStateZipCode" : "City, State, Zip Code"
+
+      },
+
+      "InvoiceDetails" : {
+
+        "InvoiceNumber" : "12345",
+        "InvoiceDate" : "mm/dd/yyyy",
+
+        "TermsOfPayment" : {
+
+          "Terms" : "Net 30",
+          "Due" : "mm/dd/yyyy"
+
+        }
+
+      }
+
+    },
+
+    "DescriptionOfGoodsOrServices" : [{
+
+      "ProductService" : "Product or Service",
+      "Description" : "Describe your product or service",
+      "Qty-Hrs" : "0",
+      "Rate" : "0",
+      "Amount" : "0"
+
+    }],
+
+    "Invoicing" : {
+
+      "Message" : "Customer Message. Hello! Thank you for your purchase. Please return this invoice with payment. Thanks!",
+
+
+      "Subtotal" : "0.00",
+      "SalesTax" : "0.00",
+      "Shipping" : "0.00",
+      "Total" : "$0.00"
+
+    }
+
+  }
+
+}
